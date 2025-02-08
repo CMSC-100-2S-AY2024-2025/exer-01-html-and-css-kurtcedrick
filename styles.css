@@ -62,6 +62,8 @@ body {
     flex-direction: column;
     margin-bottom: 4px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .sidebar-link:hover {
@@ -100,6 +102,7 @@ body {
 .proj {
     font-size: 15px;
     margin-left: 80px;
+    margin-bottom: 20px;
 }
 
 
