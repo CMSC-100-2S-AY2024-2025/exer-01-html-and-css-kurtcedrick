@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     margin-top: 2px;
+    font-family: Roboto, Arial;
 }
 
 .header {
@@ -35,11 +36,12 @@ body {
     margin-left: 10px;
 }
 
-.name {
+.headtext {
     margin-left: 20px;
     font-family: Roboto, Arial;
     font-weight: 800;
 }
+
 
 .sidebar {
     position: fixed;
@@ -62,10 +64,24 @@ body {
     cursor: pointer;
 }
 
-.autobio {
+.sidebar-link:hover {
+    background-color: rgb(235,235,235);
+}
+
+.sidebar-link img {
+    height: 24px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.home {
+    margin-top: 70px;
+    margin-left: 80px;
     display: flex;
-    flex-direction: row;
-    margin: 10px;
+    font-size: 15px;
 }
 
 .myphoto {
@@ -75,6 +91,13 @@ body {
     margin-right: 20px;
 }
 
-h1 {
-    margin-left: 10px;
+
+.autobio {
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.proj {
+    font-size: 15px;
+    margin-left: 80px;
 }
